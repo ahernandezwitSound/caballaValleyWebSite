@@ -51,7 +51,7 @@ function App() {
         />
         <SocialIcon
           network="github"
-          url="https://discord.gg/ThK5Z3gNBP"
+          url="https://github.com/CaballaValley"
           fgColor="#001858"
           bgColor="#f582ae"
           style={{ height: 100, width: 100 }}
