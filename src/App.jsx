@@ -21,7 +21,7 @@ function App() {
           deleteSpeed={50}
           delaySpeed={1000}
           words={[
-            "Charlamos sobre programación...",
+            "Charlamos de programación...",
             "Desde el norte de África.",
             "Ceuta",
           ]}
@@ -34,6 +34,7 @@ function App() {
           url="https://twitter.com/CaballaV"
           fgColor="#001858"
           bgColor="#f582ae"
+          target={"_blank"}
         />
         <SocialIcon
           network="youtube"
@@ -41,6 +42,7 @@ function App() {
           url="https://www.youtube.com/channel/UCCA6mBx3Udsaw0iPOoJ09Pw"
           fgColor="#001858"
           bgColor="#f582ae"
+          target={"_blank"}
         />
         <SocialIcon
           network="discord"
@@ -48,6 +50,7 @@ function App() {
           fgColor="#001858"
           bgColor="#f582ae"
           style={{ height: 100, width: 100 }}
+          target={"_blank"}
         />
         <SocialIcon
           network="github"
@@ -55,6 +58,7 @@ function App() {
           fgColor="#001858"
           bgColor="#f582ae"
           style={{ height: 100, width: 100 }}
+          target={"_blank"}
         />
       </div>
     </div>
