@@ -12,7 +12,7 @@ function App() {
           CaballaValley
         </p>
       </div>
-      <div className="mt-4 text-2xl text-[#b8c1ec] font-montserrat font-bold">
+      <div className="mt-4 text-[#b8c1ec] font-montserrat font-bold md:text-xl lg:text-2xl">
         <Typewriter
           loop
           cursor
@@ -27,9 +27,8 @@ function App() {
           ]}
         />
       </div>
-      <div className="mt-8 gap-4 sm:flex ">
+      <div className="mt-8 flex sm:gap-2 md:gap-4">
         <SocialIcon
-          className="md:w-12"
           network="twitter"
           style={{ height: 100, width: 100 }}
           url="https://twitter.com/CaballaV"
@@ -37,7 +36,6 @@ function App() {
           bgColor="#f582ae"
         />
         <SocialIcon
-          className=""
           network="youtube"
           style={{ height: 100, width: 100 }}
           url="https://www.youtube.com/channel/UCCA6mBx3Udsaw0iPOoJ09Pw"
@@ -45,7 +43,6 @@ function App() {
           bgColor="#f582ae"
         />
         <SocialIcon
-          className=""
           network="discord"
           url="https://discord.gg/ThK5Z3gNBP"
           fgColor="#001858"
@@ -53,7 +50,6 @@ function App() {
           style={{ height: 100, width: 100 }}
         />
         <SocialIcon
-          className=""
           network="github"
           url="https://discord.gg/ThK5Z3gNBP"
           fgColor="#001858"
