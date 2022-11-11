@@ -9,7 +9,7 @@ function App() {
       <Particle />
       <div>
         <p className="lg:text-7xl md:text-5xl sm:text-3xl text-3xl font-bold font-press-start relative items-center  text-[#fffffe]">
-          CaballaValley
+          CaballaValleylol
         </p>
       </div>
       <div className="mt-4 text-[#b8c1ec] font-montserrat font-bold md:text-xl lg:text-2xl">
